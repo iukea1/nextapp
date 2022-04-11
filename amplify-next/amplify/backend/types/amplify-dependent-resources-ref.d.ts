@@ -1,26 +1,20 @@
 export type AmplifyDependentResourcesAttributes = {
     "api": {
-        "NextBlog": {
+        "test1": {
+            "GraphQLAPIKeyOutput": "string",
             "GraphQLAPIIdOutput": "string",
             "GraphQLAPIEndpointOutput": "string"
         }
     },
     "auth": {
-        "amplifynext68e1d070": {
+        "test1612c18f7": {
             "IdentityPoolId": "string",
             "IdentityPoolName": "string",
             "UserPoolId": "string",
             "UserPoolArn": "string",
             "UserPoolName": "string",
             "AppClientIDWeb": "string",
-            "AppClientID": "string",
-            "CreatedSNSRole": "string"
-        }
-    },
-    "storage": {
-        "projectimages": {
-            "BucketName": "string",
-            "Region": "string"
+            "AppClientID": "string"
         }
     }
 }

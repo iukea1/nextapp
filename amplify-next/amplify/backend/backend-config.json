@@ -1,6 +1,6 @@
 {
   "api": {
-    "NextBlog": {
+    "test1": {
       "service": "AppSync",
       "providerPlugin": "awscloudformation",
       "output": {
@@ -9,23 +9,17 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 365,
-              "description": "public"
+              "apiKeyExpirationDate": "2023-04-11T10:06:13.477Z",
+              "description": ""
             }
           },
-          "additionalAuthenticationProviders": [
-            {
-              "authenticationType": "AMAZON_COGNITO_USER_POOLS",
-              "userPoolConfig": {
-                "userPoolId": "authamplifynextff86daff"
-              }
-            }
-          ]
+          "additionalAuthenticationProviders": []
         }
       }
     }
   },
   "auth": {
-    "amplifynext68e1d070": {
+    "test1612c18f7": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
@@ -48,12 +42,6 @@
           "EMAIL"
         ]
       }
-    }
-  },
-  "storage": {
-    "projectimages": {
-      "service": "S3",
-      "providerPlugin": "awscloudformation"
     }
   }
 }
